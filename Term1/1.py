@@ -1,0 +1,7 @@
+print(10 + 15)
+print(35 - 20)
+print(6 * 4)
+print(50 / 5)
+print(29 % 4)
+print(8 ** 2)
+print(12 // 5)
