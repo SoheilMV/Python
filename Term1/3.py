@@ -47,3 +47,7 @@ print(message.startswith("Hello"))
 #12 End With
 message = "Hello World"
 print(message.endswith("World"))
+
+# barname benvisim k az karvar jomle daryaft kone va
+# Harf aval kalame aval bozorg bashe
+# 
