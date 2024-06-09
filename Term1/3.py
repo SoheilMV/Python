@@ -48,6 +48,8 @@ print(message.startswith("Hello"))
 message = "Hello World"
 print(message.endswith("World"))
 
-# barname benvisim k az karvar jomle daryaft kone va
-# Harf aval kalame aval bozorg bashe
-# 
+# barname benvisim k az karbar jomle daryaft kone va
+# Harf aval kalame aval bozorg bashe.
+# space haye aval va akhar pak beshe.
+# agar char '-' didi ba ',' avaz kon.
+# agar '//n' dar jomle bud ba '/n' avaz kon.
