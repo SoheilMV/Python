@@ -5,10 +5,10 @@ b = 10
 print(a > 0 and b > 0)
 
 #2
-x = -3
+x = 1
 y = 7
-z = 5
-print(x < 0 and z == 10)
+z = x + y
+print(x > 0 and z == 10)
 
 #3
 m = 15
@@ -42,3 +42,14 @@ elif b > a and b > c:
     print("b بزرگ‌ترین است")
 else:
     print("c بزرگ‌ترین است")
+
+#4
+price = int(input("what range of price to buy phone? "))
+if price < 10000000:
+    print("Poco m5s")
+elif price < 20000000:
+    print("Poco x6 Pro")
+elif price < 4000000
+    print("iPhone 15")
+else:
+    print("iPhone 13 Pro Max")
