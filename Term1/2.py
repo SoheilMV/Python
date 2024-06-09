@@ -50,3 +50,8 @@ print("جمع: ", num1 + num2)
 print("تفریق: ", num1 - num2)
 print("ضرب: ", num1 * num2)
 print("تقسیم: ", num1 / num2)
+
+# tabdil rial be dolar
+rial = flout(input("insert your money: "))
+dollar = flout(input("insert the price of dollar: "))
+print(rial * dollar)
