@@ -9,6 +9,12 @@ b = 20
 c = a + b
 print(c)
 
+# mohit mostatil       2*(w+h)
+# masahat mostatil     w*h
+
+# daiere mohit  2pr
+# daiere pr*r
+
 ############### datatype
 integer_var = 100
 float_var = 3.14
