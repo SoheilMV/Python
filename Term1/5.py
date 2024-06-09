@@ -21,3 +21,13 @@ elif email == enterEmail:
         print("Invalid Password!")
 else:
     print("You need to signup first!")
+
+
+
+grade = 5
+ifAnswer = input(" ؟ ادستور استفاده از شرط در پایتون چیست ")
+if ifAnswer == "if":
+    print("جواب درست میباشد")
+else :
+    print("جواب غلط میباشد")
+    grade -= 1
