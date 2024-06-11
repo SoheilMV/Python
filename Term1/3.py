@@ -10,7 +10,7 @@ print(message.format("World"))
 
 #3 Split
 message = "Hello:World"
-print(message.strip(':'))
+print(message.split(':'))
 
 #4 Strip
 message = "  Hello World  "
