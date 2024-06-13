@@ -22,12 +22,43 @@ elif email == enterEmail:
 else:
     print("You need to signup first!")
 
-
+#=============================================================
 
 grade = 5
-ifAnswer = input(" ؟ ادستور استفاده از شرط در پایتون چیست ")
-if ifAnswer == "if":
-    print("جواب درست میباشد")
-else :
-    print("جواب غلط میباشد")
-    grade -= 1
+result = input("Where is the capital of Brazil?")
+if result.lower() == "rio":
+    print("rio -> valid")
+else:
+    print("invalid")
+    grade = grade - 1
+
+result = input("Where is the capital of Germany?")
+if result.lower() == "berlin":
+    print("berlin -> valid")
+else:
+    print("invalid")
+    grade = grade - 1
+    
+result = input("Where is the capital of Italy?")
+if result.lower() == "rome":
+    print("rome -> valid")
+else:
+    print("invalid")
+    grade = grade - 1
+    
+result = input("Where is the capital of France?")
+if result.lower() == "paris":
+    print("paris -> valid")
+else:
+    print("invalid")
+    grade = grade - 1
+    
+    
+result = input("Where is the capital of Japon?")
+if result.lower() == "tokyo":
+    print("tokyo -> valid")
+else:
+    print("invalid")
+    grade = grade - 1
+    
+print(f"Grade: {grade}")
